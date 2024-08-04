@@ -19,6 +19,6 @@ for (x, y, w, h) in faces:
 # Display the image with detected faces
 cv2.imshow('Face Detection', image)
 
-# Wait for a key press to close the window
+# Wait for a key press to close the windows
 cv2.waitKey(0)
 cv2.destroyAllWindows()
